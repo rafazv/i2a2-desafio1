@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
       alert("Um link para redefinição de senha foi enviado para o email informado: " + email);
       
       // Redirecionando para a página de login
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     } else {
       alert("Por favor, informe um email válido.");
     }
